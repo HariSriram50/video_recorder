@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+.instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.questions {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+.questions ol {
+    margin-left: 20px;
+}
+.questions li {
+    margin-bottom: 10px;
+}
+.recorder {
+    text-align: center;
+    margin-top: 20px;
+}
+video {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.controls button, .controls a {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+#startBtn {
+    background-color: #3498db;
+    color: white;
+}
+#stopBtn {
+    background-color: #e74c3c;
+    color: white;
+}
+#downloadLink {
+    background-color: #2ecc71;
+    color: white;
+}
+#status {
+    color: #333;
+    margin-top: 10px;
+}
